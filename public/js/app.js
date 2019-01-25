@@ -56053,7 +56053,7 @@ __webpack_require__.r(__webpack_exports__);
     var payload = form.payload;
     var url = '/api/update';
     var options = {
-      method: 'POST',
+      method: 'PUT',
       body: qs__WEBPACK_IMPORTED_MODULE_1___default.a.stringify(payload),
       headers: new Headers({
         "Content-type": "application/x-www-form-urlencoded",
@@ -56072,7 +56072,7 @@ __webpack_require__.r(__webpack_exports__);
     var payload = form.payload;
     var url = '/api/password';
     var options = {
-      method: 'POST',
+      method: 'PUT',
       body: qs__WEBPACK_IMPORTED_MODULE_1___default.a.stringify(payload),
       headers: new Headers({
         "Content-type": "application/x-www-form-urlencoded",

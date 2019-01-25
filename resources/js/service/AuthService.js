@@ -44,7 +44,7 @@ export default {
     const {payload} = form
     const url = '/api/update';
     const options = {
-      method: 'POST',
+      method: 'PUT',
       body: qs.stringify(payload),
       headers: new Headers({
         "Content-type": "application/x-www-form-urlencoded",
@@ -62,7 +62,7 @@ export default {
     const {payload} = form
     const url = '/api/password';
     const options = {
-      method: 'POST',
+      method: 'PUT',
       body: qs.stringify(payload),
       headers: new Headers({
         "Content-type": "application/x-www-form-urlencoded",

@@ -20,7 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('login', 'Api\UserController@login');
 Route::post('register', 'Api\UserController@register');
 Route::group(['middleware' => 'auth:api'], function () {
-    Route::post('update', 'Api\UserController@update');
+    Route::put('update', 'Api\UserController@update');
     Route::post('profile', 'Api\UserController@profile');
-    Route::post('password', 'Api\UserController@password');
+    Route::put('password', 'Api\UserController@password');
 });
