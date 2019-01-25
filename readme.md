@@ -1,5 +1,5 @@
 ### CLONE
-clone repository https://github.com/asepmedia/gigel-test.git
+clone repository `git clone https://github.com/asepmedia/gigel-test.git`
 ### INSTALL
 Please run `composer install` and `npm run install`
 ### SETTING DB
@@ -18,6 +18,7 @@ Npm : 6.4.1
 Node : v10.15.0
 PHP : 7.2.10
 MySql : 5.7.25
+Comppser : 1.6.3
 
 ### SHORT TUTORIAL
 http://127.0.0.1:8000/register == Halaman untuk daftar user baru
